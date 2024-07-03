@@ -1,0 +1,114 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    }
+    
+    header {
+    background-color: #84b386;
+    color: rgb(236, 255, 232);
+    padding: 15px;
+    text-align: center;
+    position: relative;
+    }
+    
+    header .logo {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    }
+    
+    header .logo img {
+    width: 50px;
+    height: auto;
+    }
+    
+    nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+    
+    nav ul li {
+    display: inline;
+    margin: 0 15px;
+    }
+    
+    nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    }
+    
+    main {
+    padding: 20px;
+    }
+    
+    section {
+    margin-bottom: 40px;
+    }
+    
+    #sobre img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+    }
+    
+    .servico {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    }
+    
+    form {
+    display: flex;
+    flex-direction: column;
+    }
+    
+    form label {
+    margin-bottom: 5px;
+    }
+    
+    form input, form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    }
+    
+    button {
+    background-color: #84b386;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    }
+    
+    button:hover {
+    background-color: #84b386;
+    }
+    
+    footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    }
+    
+    @media (max-width: 600px) {
+    nav ul li {
+    display: block;
+    margin: 10px 0;
+    }
+    
+    header .logo {
+    position: static;
+    margin-bottom: 10px;
+    }
+    
+    header {
+    text-align: left;
+    }
+    }
+    

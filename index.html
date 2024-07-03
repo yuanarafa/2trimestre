@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de vendas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo"> <img src="caixote.png" alt="logo-tipo do site"></div>
+        <h1>Hortifrutinha</h1>
+        <nav>
+            <ul>
+            <li><a href="#sobre">Sobre</a>
+            </li>
+            <li><a href="#serviços">Serviços</a>
+            </li>
+            <li><a href="#contato">Contato</a>
+            </li>
+            </ul>
+            </nav>
+    </header>
+    <main>
+        <Section id="Sobre">
+            <h2>Sobre a Hortifrutinha</h2>
+            <p> Na Hortifrutinha, cultivamos amor e simplicidade. Nossos produtos frescos e naturais são colhidos com carinho e entregues diretamete à sua porta.
+                Temos tomates suculentos, cenouras crocantes, milho dourado...Tudo cultivado com muito cuidado!
+                Deixe a natureza entrar na sua casa! Faça seu pedido hoje e sinta o aroma da fazenda chegando até você.
+            </p>
+            <img src="cenoura.png" alt="cenoura">
+            <img src="milho.png" alt="milho">
+            <img src="tomate.png" alt="tomate">
+            
+        </Section>
+        <section id="Serviços">
+            <h2>Serviços</h2>
+            <p>Temos pacotes diversificados para atender as suas vontades!E os valores são por peso.Confira abaixo:</p>
+            <div class="Serviços">
+                <h3>Pacotes</h3>
+                <p>Pacote simples:5 unidades</p>
+                <p>Pacote médio::10 unidades</p>
+                <p>Pacote Grande:15-20 unidades</p>
+            </div>
+        </section>
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Faça seu pedido agora mesmo!</p>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+
+        </section>
+    </main>
+</body>
+</html>
